@@ -35,6 +35,8 @@ body {
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem;  */
     font-size: 1.1rem;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
@@ -43,7 +45,8 @@ body {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
+    display: inline-block;
+    margin: 0.5rem;
 }
 
 
@@ -51,7 +54,6 @@ body {
 
 .primary-link {
     background-color: var(--primary-color);
-    ;
     border-radius: 0.5rem;
     color: white;
 }
@@ -66,10 +68,10 @@ body {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 3px solid var(--primary-color);
-    display: inline;
+    display: inline-block;
     padding: 0.5rem 1rem;
     text-align: center;
-
+    margin: 0.5rem;
    
 }
 .button1 {
@@ -89,7 +91,7 @@ body {
 }
 
 .list-item-inline {
-    display: inline;
+    display: contents;
     padding: 0rem 0.5rem;
 }
 
