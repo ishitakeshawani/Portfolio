@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root {
+    --primary-color: #7C3AED;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+}
+
+hr {
+    margin: 3rem 0rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    letter-spacing: -.02rem;
+    position: relative;
+    color: #1F2937;
+    text-align: center;
+    margin: auto;
+}
+
+.box{
+    border: 1px solid #F3F4F6;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+
+
+
+.primary-link {
+    background-color: var(--primary-color);
+    ;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondry-link {
+    color: var(--primary-colo);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.button {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 3px solid var(--primary-color);
+    display: inline;
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+   
+}
+.button1 {
+    color: var(--off-white);
+    border-radius: 0.5rem;
+    border: 3px solid var(--off-white);
+    display: inline;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(158, 138, 138);
+}
+
+  
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+
+.navigation .link {
+    color: white;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+    box-shadow:  0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+ 
+.hero {
+    padding: 2rem;
+
+}
+
+.hero .hero-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+
+.section h1 {
+    text-align: center;
+    
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.github{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    
+    display: inline;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.github:hover{
+   background-color: var(--primary-color);
+   color: white;
+   border: 3px solid var(--off-white);
+}
+
+.showcase-list {
+    padding: 2rem;
+}
+
+  
