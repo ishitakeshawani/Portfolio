@@ -127,7 +127,7 @@ body {
 }
 
 .hero .hero-img {
-    max-width: 450px;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
