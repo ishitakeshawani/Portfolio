@@ -25,18 +25,13 @@ body {
     letter-spacing: -.02rem;
     position: relative;
     color: #1F2937;
-    text-align: center;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .box{
     border: 1px solid #F3F4F6;
     border-radius: 1rem;
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    /* margin-left: 1.5rem;
-    margin-right: 1.5rem;  */
+    padding: 1rem;
     font-size: 1.1rem;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
@@ -49,6 +44,15 @@ body {
     margin: 0.5rem;
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
 
 
 
@@ -108,7 +112,7 @@ body {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: left;
 }
 
 
