@@ -136,6 +136,7 @@ ul {
  
 .hero {
     padding: 2rem;
+    vertical-align: middle;
 
 }
 
@@ -143,6 +144,7 @@ ul {
     max-width: 100%;
     display: block;
     margin: auto;
+    height: auto;
 }
 
 .hero .hero-heading {
