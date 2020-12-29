@@ -27,6 +27,13 @@ body {
     color: #1F2937;
     margin: 20px auto;
 }
+.container-center1 {
+    max-width: 600px;
+    letter-spacing: -.02rem;
+    position: relative;
+    color: #1F2937;
+    margin: auto;
+}
 
 .box{
     border: 1px solid #F3F4F6;
@@ -199,6 +206,7 @@ ul {
    background-color: var(--primary-color);
    color: white;
    border: 3px solid var(--off-white);
+   margin: auto;
 }
 
 .showcase-list {
