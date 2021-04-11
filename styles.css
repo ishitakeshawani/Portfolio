@@ -33,6 +33,19 @@ body {
     }
   }
 
+  @media screen and (min-width: 601px) {
+    p{
+      font-size: 15px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    p{
+      font-size: 15px;
+    }
+  }
+
 .container-center {
     max-width: 600px;
     letter-spacing: -.02rem;
