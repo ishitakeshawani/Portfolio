@@ -20,6 +20,19 @@ body {
     padding-right: 1rem;
 }
 
+@media screen and (min-width: 601px) {
+    h1{
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    h1{
+      font-size: 15px;
+    }
+  }
+
 .container-center {
     max-width: 600px;
     letter-spacing: -.02rem;
@@ -129,9 +142,8 @@ ul {
 
 
 .navigation .link-active {
-    font-weight: bold;
-    box-shadow:  0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    border: 1px solid var(--off-white);
+    border-radius: 0.5rem;
 }
  
 .hero {
