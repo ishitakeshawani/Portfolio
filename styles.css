@@ -13,6 +13,8 @@ hr {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background: #151a2a;
+  
 }
 
 .container {
@@ -23,6 +25,7 @@ body {
 @media screen and (min-width: 601px) {
     h1{
       font-size: 20px;
+      color: #F3F4F6;
     }
   }
   
@@ -30,12 +33,14 @@ body {
   @media screen and (max-width: 600px) {
     h1{
       font-size: 15px;
+      color: #F3F4F6;
     }
   }
 
   @media screen and (min-width: 601px) {
     p{
       font-size: 15px;
+      color: #F3F4F6;
     }
   }
   
@@ -43,15 +48,18 @@ body {
   @media screen and (max-width: 600px) {
     p{
       font-size: 15px;
+      color: #F3F4F6;
     }
   }
 
 .container-center {
-    max-width: 600px;
+    max-width: 400px;
     letter-spacing: -.02rem;
     position: relative;
     color: #1F2937;
     margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
 }
 .container-center1 {
     max-width: 600px;
@@ -59,6 +67,7 @@ body {
     position: relative;
     color: #1F2937;
     margin: auto;
+    
 }
 
 .box{
@@ -96,7 +105,7 @@ ul {
 }
 
 .secondry-link {
-    color: var(--primary-colo);
+    color: var(--off-white);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
@@ -194,8 +203,9 @@ ul {
 
 }
 
-.ow{
-    background-color: var(--off-white);
+small{
+    /* background-color: var(--off-white); */
+    color: #F3F4F6;
 }
 
 .footer{
