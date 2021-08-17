@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
-
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
@@ -14,7 +13,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     background: #151a2a;
-  
 }
 
 .container {
@@ -23,34 +21,38 @@ body {
 }
 
 @media screen and (min-width: 601px) {
-    h1{
-      font-size: 20px;
-      color: #F3F4F6;
+    h1 {
+        font-size: 20px;
+        color: #F3F4F6;
     }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    h1{
-      font-size: 15px;
-      color: #F3F4F6;
-    }
-  }
+}
 
-  @media screen and (min-width: 601px) {
-    p{
-      font-size: 15px;
-      color: #F3F4F6;
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 15px;
+        color: #F3F4F6;
     }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    p{
-      font-size: 15px;
-      color: #F3F4F6;
+}
+
+@media screen and (min-width: 601px) {
+    p {
+        font-size: 15px;
+        color: #F3F4F6;
     }
-  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 15px;
+        color: #F3F4F6;
+    }
+}
 
 .container-center {
     max-width: 400px;
@@ -61,21 +63,21 @@ body {
     padding: 20px;
     display: inline-block;
 }
+
 .container-center1 {
     max-width: 600px;
     letter-spacing: -.02rem;
     position: relative;
     color: #1F2937;
     margin: auto;
-    
 }
 
-.box{
+.box {
     border: 1px solid #F3F4F6;
     border-radius: 1rem;
     padding: 1rem;
     font-size: 1.1rem;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
 }
 
@@ -95,8 +97,6 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-
-
 
 .primary-link {
     background-color: var(--primary-color);
@@ -118,8 +118,8 @@ ul {
     padding: 0.5rem 1rem;
     text-align: center;
     margin: 0.5rem;
-   
 }
+
 .button1 {
     color: var(--off-white);
     border-radius: 0.5rem;
@@ -127,11 +127,10 @@ ul {
     display: inline;
     padding: 0.5rem 1rem;
     text-align: center;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(158, 138, 138);
 }
 
-  
 .list-non-bullet {
     list-style: none;
 }
@@ -157,21 +156,18 @@ ul {
     text-align: left;
 }
 
-
 .navigation .link {
     color: white;
 }
-
 
 .navigation .link-active {
     border: 1px solid var(--off-white);
     border-radius: 0.5rem;
 }
- 
+
 .hero {
     padding: 2rem;
     vertical-align: middle;
-
 }
 
 .hero .hero-img {
@@ -192,23 +188,20 @@ ul {
     color: var(--primary-color);
 }
 
-.section{
+.section {
     padding: 2rem;
 }
 
-
 .section h1 {
     text-align: center;
-    
-
 }
 
-small{
+small {
     /* background-color: var(--off-white); */
     color: #F3F4F6;
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -216,38 +209,34 @@ small{
     border-top-right-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-
-.footer .footer-header{
+.footer .footer-header {
     font-size: large;
     font-weight: bold;
 }
 
-.github{
+.github {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    
     display: inline;
     padding: 0.5rem 1rem;
     text-align: center;
 }
 
-.github:hover{
-   background-color: var(--primary-color);
-   color: white;
-   border: 3px solid var(--off-white);
-   margin: auto;
+.github:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: 3px solid var(--off-white);
+    margin: auto;
 }
 
 .showcase-list {
     padding: 2rem;
 }
-
-  
