@@ -68,7 +68,7 @@ body {
     max-width: 600px;
     letter-spacing: -.02rem;
     position: relative;
-    color: #1F2937;
+    color: #F3F4F6;
     margin: auto;
 }
 
@@ -137,7 +137,8 @@ ul {
 
 .list-item-inline {
     display: contents;
-    padding: 0rem 0.5rem;
+    /* padding: 0rem 0.5rem; */
+    float: right;
 }
 
 .navigation .nav-brand {
@@ -153,7 +154,7 @@ ul {
 }
 
 .navigation .nav-pills {
-    text-align: left;
+    text-align: right;
 }
 
 .navigation .link {
@@ -230,13 +231,10 @@ small {
     text-align: center;
 }
 
-.github:hover {
-    background-color: var(--primary-color);
-    color: white;
-    border: 3px solid var(--off-white);
-    margin: auto;
-}
-
 .showcase-list {
     padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
 }
