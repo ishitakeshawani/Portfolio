@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #8300b8;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -12,7 +12,7 @@ hr {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    background: #151a2a;
+    background: #000000;
 }
 
 .container {
