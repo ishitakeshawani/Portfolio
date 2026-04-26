@@ -1,0 +1,46 @@
+.dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -3px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 250ms ease;
+  will-change: transform;
+}
+
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  border: 1.5px solid var(--accent);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  box-shadow:
+    0 0 12px rgba(168, 85, 247, 0.35),
+    inset 0 0 6px rgba(168, 85, 247, 0.2);
+  transition: opacity 250ms ease;
+  will-change: transform;
+}
+
+.visible {
+  opacity: 1;
+}
+
+@media (hover: none),
+  (prefers-reduced-motion: reduce) {
+  .dot,
+  .ring {
+    display: none;
+  }
+}

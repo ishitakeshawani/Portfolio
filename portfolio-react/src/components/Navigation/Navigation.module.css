@@ -1,0 +1,198 @@
+.topNav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(10, 10, 15, 0.72);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  height: 64px;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.spacer {
+  height: 1px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  justify-self: center;
+}
+
+.link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  transition:
+    color 220ms ease,
+    background-color 220ms ease;
+}
+
+.link:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.active {
+  color: var(--text-primary);
+  background: linear-gradient(
+    135deg,
+    var(--accent-soft),
+    rgba(236, 72, 153, 0.08)
+  );
+  box-shadow:
+    0 0 18px rgba(168, 85, 247, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.18),
+    rgba(236, 72, 153, 0.1)
+  );
+  border: 1px solid var(--border-accent);
+  transition:
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cta:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.3),
+    rgba(236, 72, 153, 0.2)
+  );
+  border-color: rgba(168, 85, 247, 0.6);
+  transform: translateY(-1px);
+  box-shadow:
+    0 6px 20px rgba(168, 85, 247, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.cta svg {
+  color: var(--accent);
+}
+
+.bottomNav {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .topNav {
+    display: none;
+  }
+
+  .bottomNav {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background: rgba(10, 10, 15, 0.85);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-top: 1px solid var(--border);
+    padding: 0.4rem 0.5rem;
+    padding-bottom: calc(0.4rem + env(safe-area-inset-bottom, 0));
+  }
+
+  .bottomList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .bottomList > li {
+    flex: 1;
+    display: flex;
+  }
+
+  .bottomLink {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: var(--radius-md);
+    color: var(--text-tertiary);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    transition:
+      color 220ms ease,
+      background-color 220ms ease,
+      transform 220ms ease;
+  }
+
+  .bottomLink:active {
+    transform: scale(0.95);
+  }
+
+  .bottomLink svg {
+    transition: filter 220ms ease, color 220ms ease;
+  }
+
+  .bottomActive {
+    color: var(--accent-hover);
+    background: linear-gradient(
+      135deg,
+      rgba(168, 85, 247, 0.18),
+      rgba(236, 72, 153, 0.1)
+    );
+  }
+
+  .bottomActive svg {
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.55));
+  }
+}

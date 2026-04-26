@@ -1,0 +1,15 @@
+export const technologies: string[] = [
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Redux',
+  'GraphQL',
+  'Java',
+  'Spring Boot',
+  'REST APIs',
+  'MongoDB',
+  'MySQL',
+  'C++',
+  'HTML',
+  'CSS',
+];
